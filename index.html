@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranata Móveis Planejados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #A0522D;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #CD853F;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #A0522D;
+            padding-bottom: 0.5rem;
+        }
+        .services, .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service, .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .service img, .portfolio-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #8B4513;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .service, .portfolio-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maranata Móveis Planejados</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Nós</a>
+        <a href="#services">Serviços</a>
+        <a href="#portfolio">Demonstrações</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à Maranata Móveis Planejados! Somos uma empresa especializada em criar móveis sob medida, com design personalizado e qualidade superior. Nossa missão é transformar ambientes com móveis que combinam funcionalidade e beleza, atendendo às necessidades e sonhos de nossos clientes.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Serviços</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Móveis Planejados</h3>
+                    <p>Desenvolvemos móveis planejados para todos os ambientes, desde cozinhas e banheiros até quartos e salas de estar, sempre com foco em otimização de espaço e estilo.</p>
+                </div>
+                <div class="service">
+                    <h3>Consultoria Personalizada</h3>
+                    <p>Nossos especialistas oferecem consultoria personalizada para ajudar você a escolher os melhores materiais, design e layout para seus móveis planejados.</p>
+                </div>
+                <div class="service">
+                    <h3>Instalação Profissional</h3>
+                    <p>Além de projetar e fabricar, também cuidamos da instalação dos móveis, garantindo um acabamento impecável e a plena satisfação de nossos clientes.</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Demonstrações</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <h3>Cozinha Moderna</h3>
+                    <img src="file-jYomzJJBs1FwD65n58ZOEOzD" alt="Cozinha Moderna">
+                    <p>Projeto de cozinha moderna com móveis planejados, otimizando cada centímetro de espaço.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Quarto Elegante</h3>
+                    <img src="file-rxKJpoo5v64dDtpdTJGnLNPr" alt="Quarto Elegante">
+                    <p>Quarto com móveis planejados que proporcionam conforto e sofisticação.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações ou para solicitar um orçamento:</p>
+            <p><strong>Email:</strong> contato@maranata.com</p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123, São Paulo, SP</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Maranata Móveis Planejados. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
